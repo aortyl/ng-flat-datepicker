@@ -63,11 +63,11 @@ $default-color: #0093de; // Blue
         tbody {
             margin: 0 auto;
             padding-top: $table-padding;
-            width: ($width - (2 * $table-padding));
+            width: ($width - (2 * $table-padding)) + 2;
             display: block;
             tr {
                 height: ($width - (2 * $table-padding))/7;
-                width: ($width - (2 * $table-padding));
+                width: ($width - (2 * $table-padding)) + 2;
                 &.days-head {
                     height: ($width - (2 * $table-padding))/7 + 8; // yo - lo
                     .day-head {
